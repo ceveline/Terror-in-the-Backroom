@@ -96,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
         //TODO: logic to add item inventory
         other.gameObject.SetActive(false);
         //set isColliding bool back to false
-        isCollidingWithObject = true;
+        isCollidingWithObject = false;
     }
 
 }
